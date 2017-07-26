@@ -1,0 +1,81 @@
+body {
+  background: rgba(240,240,240,1.0);
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(100,100,100, 1.0);
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.card {
+  margin: 10px;
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0px 0px 3px rgba(220,220,220,1.0);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  text-align: center;
+}
+
+#profile_pic-format {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.title-format {
+  font-size: 38px;
+  line-height: 30px;
+  color: #EA5455;
+}
+
+.subtitle-format {
+  font-size: 22px;
+  line-height: 26px;
+  margin: 10px;
+}
+
+.button-format {
+  color: white;
+  text-decoration: none;
+  background: #EA5455;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.button-format:hover {
+  color: rgba(100,100,100, 1.0);
+  text-decoration: none;
+  background: rgba(240,240,240, 1.0);
+  margin: 5px;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+.link-format {
+  color: rgba(100, 100, 100, 1.0);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.link-format:hover {
+  color: #EA5455;
+  text-decoration: none;
+}
+
+.movie_description-format {
+  text-align: left;
+}
+
+
