@@ -8,38 +8,45 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class = "card">
+    <div id = "sidebar">
+      <ul class = 'index-format'>
+        <li><a href="#profile"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+        <li><a href="#links"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+        <li><a href="#movies"><i class="fa fa-film" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="container" id = "page-content">
+      <div class = "card" id = "profile">
         <img src="images/profile_pic.jpg" id = 'profile_pic-format' alt="Jan Kinsky's profile picture" >
         <h1 class = 'title-format'><strong>Jan Kinsky</strong></h1>
         <h2 class = 'subtitle-format'>Back to school</h2>
         <p>Ex-consultant, traveller, kitesurfer and chocolate addict</p>
         <a href="#" class = 'button-format'>See for yourself</a>
       </div>
-      <div class = "card">
+      <div class = "card" id ="links">
         <ul class = "list-inline">
           <li>
-            <a href="#" class = 'link-format'>
+            <a href="https://www.facebook.com/kinskyj" class = 'link-format'>
               <i class="fa fa-facebook" aria-hidden="true"></i>
               <br>
                 Facebook
             </a>
           </li>
           <li>
-            <a href="#" class = 'link-format'><i class="fa fa-linkedin" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/in/jan-kinsky-94949433/" class = 'link-format'><i class="fa fa-linkedin" aria-hidden="true"></i>
               <br>
                 Linkedin
             </a>
           </li>
           <li>
-            <a href="#" class = 'link-format'><i class="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/Kinskyj" class = 'link-format'><i class="fa fa-github" aria-hidden="true"></i>
               <br>
                 Github
             </a>
           </li>
         </ul>
       </div>
-      <div class = "card">
+      <div class = "card" id = "movies">
         <h2>My favorite movies</h2>
         <table>
           <tbody class = 'movie_description-format'>

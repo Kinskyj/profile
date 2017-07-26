@@ -21,6 +21,40 @@ body {
   text-align: center;
 }
 
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(100,100,100, 1.0);
+}
+
+#page-content {
+  margin-left: 150px;
+}
+
+.index-format {
+  font-size:30px;
+  color: rgba(200,200,200,1.0);
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  color: rgba(240,240,240,1.0);
+}
+
+#sidebar a:hover {
+  color: #EA5455;
+}
+
 #profile_pic-format {
   width: 180px;
   height: 180px;
